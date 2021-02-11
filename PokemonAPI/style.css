@@ -1,6 +1,6 @@
 body {
     justify-content: center;
-    background: url('http://pm1.narvii.com/7450/61618973a9e402524f24dba94eae7695f5871eddr1-512-512v2_uhq.jpg');
+    background: url('https://www.transparenttextures.com/patterns/dark-denim-3.png');
 }
 
 html {
@@ -16,9 +16,9 @@ html {
     text-align: center;
     padding: 25px;
     border-radius: 6px;
-    border: 10px #f8d41f solid;
+    border: 10px #faea99 solid;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-    
+    margin-bottom: 20px;
 }
 
 .smoochum {
@@ -28,7 +28,7 @@ html {
     text-align: center;
     padding: 25px;
     border-radius: 6px;
-    border: 10px #f8d41f solid;
+    border: 10px #fdeea3 solid;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 80px;
 }
@@ -53,10 +53,35 @@ h1 {
     font-family: 'Oswald', sans-serif;
     justify-content: center;
     color: rgb(49, 44, 44);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 
 h3 {
-    margin-left: 500px;
-    color: rgb(49, 44, 44);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: 'Press Start 2P', cursive;
 }
 
+@media (max-width: 500px) {
+    html {
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    h3 {
+        margin-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .elekid, .mantyke, .tyrogue, .wynaut, .munchlax, .mimejr, .magby, .pichu, .togepi {
+        min-width: 400px;
+    }
+    
+    .smoochum {
+        min-width: 400px;
+        margin-bottom: 50px;
+    }
+}
