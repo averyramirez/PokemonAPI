@@ -1,10 +1,16 @@
 body {
     justify-content: center;
-    background: url('https://i.pinimg.com/originals/98/00/ff/9800ff153c8f538c15d6dbfb53b76b39.png');
+    background: url('http://pm1.narvii.com/7450/61618973a9e402524f24dba94eae7695f5871eddr1-512-512v2_uhq.jpg');
+}
+
+html {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(49, 44, 44);
 }
 
 .elekid, .mantyke, .tyrogue, .wynaut, .munchlax, .mimejr, .magby, .pichu, .togepi {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     font-family: 'Press Start 2P', cursive;
     min-width: 500px;
     text-align: center;
@@ -16,7 +22,7 @@ body {
 }
 
 .smoochum {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     font-family: 'Press Start 2P', cursive;
     min-width: 500px;
     text-align: center;
@@ -42,11 +48,15 @@ img {
 }
 
 h1 {
-    font-family: 'Press Start 2P', cursive;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Oswald', sans-serif;
     justify-content: center;
+    color: rgb(49, 44, 44);
 }
 
 h3 {
-    margin-left: 100px;
+    margin-left: 500px;
+    color: rgb(49, 44, 44);
 }
 
