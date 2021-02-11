@@ -1,0 +1,52 @@
+body {
+    justify-content: center;
+    background: url('https://i.pinimg.com/originals/98/00/ff/9800ff153c8f538c15d6dbfb53b76b39.png');
+}
+
+.elekid, .mantyke, .tyrogue, .wynaut, .munchlax, .mimejr, .magby, .pichu, .togepi {
+    background: rgba(255, 255, 255, 0.8);
+    font-family: 'Press Start 2P', cursive;
+    min-width: 500px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+    border: 10px #f8d41f solid;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.smoochum {
+    background: rgba(255, 255, 255, 0.8);
+    font-family: 'Press Start 2P', cursive;
+    min-width: 500px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+    border: 10px #f8d41f solid;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 80px;
+}
+
+/* .container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+} */
+
+.name {
+    font-size: 40px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    justify-content: center;
+}
+
+h3 {
+    margin-left: 100px;
+}
+
