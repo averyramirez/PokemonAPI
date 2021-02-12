@@ -8,8 +8,8 @@ background: linear-gradient(90deg, rgba(127,146,254,0.8827906162464986) 0%, rgba
 }
 
 html {
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-family: 'Luckiest Guy', cursive;
     color: rgb(49, 44, 44);
 }
 
@@ -22,7 +22,7 @@ html {
     text-align: center;
     padding: 25px;
     border-radius: 6px;
-    border: 10px #faea99 solid;
+    border: 10px #fff3ba solid;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
@@ -34,7 +34,7 @@ html {
     text-align: center;
     padding: 25px;
     border-radius: 6px;
-    border: 10px #fdeea3 solid;
+    border: 10px #fff3ba solid;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 80px;
 }
@@ -54,12 +54,11 @@ img {
 }
 
 h1 {
-    padding-top: 40px;
-    margin-bottom: 100px;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
     justify-content: center;
-    color: rgb(49, 44, 44);
-    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 0 0 rgb(255, 123, 123), -3px 0 0 rgb(255, 123, 123), 0 3px 0 rgb(255, 123, 123), 0 -3px 0 rgb(255, 123, 123), 1px 1px rgb(255, 123, 123), -1px -1px 0 rgb(255, 123, 123), 1px -1px 0 rgb(255, 123, 123), -1px 1px 0 rgb(255, 123, 123);
 }
 
 h3 {
@@ -87,11 +86,11 @@ h3 {
     }
 
     .elekid, .mantyke, .tyrogue, .wynaut, .munchlax, .mimejr, .magby, .pichu, .togepi {
-        min-width: 400px;
+        min-width: 360px;
     }
     
     .smoochum {
-        min-width: 400px;
+        min-width: 360px;
         margin-bottom: 50px;
     }
 
