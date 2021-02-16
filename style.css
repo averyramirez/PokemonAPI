@@ -8,10 +8,16 @@ background: linear-gradient(90deg, rgba(127,146,254,0.8827906162464986) 0%, rgba
 }
 
 html {
-    font-size: 36px;
+    /* font-size: 36px; */
     font-family: 'Luckiest Guy', cursive;
     color: rgb(49, 44, 44);
 }
+
+.navbar {
+    background-color: transparent;
+    margin-left: 400px;
+    margin-right: 400px;
+ }
 
  
 
