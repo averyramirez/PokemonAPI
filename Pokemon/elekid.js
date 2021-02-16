@@ -1,7 +1,7 @@
 //Elekid
 
 const apiDataElekid = {
-    url239: 'https://pokeapi.co/api/v2/',
+    url239: 'http://pokeapi.co/api/v2/',
     type239: 'pokemon',
     id239: '239',
 }
