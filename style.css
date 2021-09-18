@@ -2,6 +2,7 @@ body {
     justify-content: center;
     background: rgb(127,146,254);
     background: linear-gradient(90deg, rgba(127,146,254,0.8827906162464986) 0%, rgba(170,235,254,1) 50%, rgba(199,255,229,0.8911939775910365) 100%);
+    margin-bottom: 40px;
 }
 
 html {
@@ -10,11 +11,40 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar {
-    background-color: transparent;
-    margin-left: 400px;
-    margin-right: 400px;
- }
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    justify-content: center;
+    display: flex;
+    font-size: 65px !important;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 0 0 rgb(255, 123, 123), -3px 0 0 rgb(255, 123, 123), 0 3px 0 rgb(255, 123, 123), 0 -3px 0 rgb(255, 123, 123), 1px 1px rgb(255, 123, 123), -1px -1px 0 rgb(255, 123, 123), 1px -1px 0 rgb(255, 123, 123), -1px 1px 0 rgb(255, 123, 123);
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 44px !important;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+    text-align: center;
+    text-align-last: center;
+}
 
  
 
@@ -42,36 +72,18 @@ html {
     margin-bottom: 80px;
 }
 
-
 .name {
     font-size: 40px;
+    letter-spacing: 2px;
+    padding-top: 20px;
 }
 
 img {
-    height: 180px;
-    width: 180px;
+    height: 220px;
+    width: 220px;
 }
 
-h1 {
-    font-family: 'Luckiest Guy', cursive;
-    justify-content: center;
-    align-content: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 0 0 rgb(255, 123, 123), -3px 0 0 rgb(255, 123, 123), 0 3px 0 rgb(255, 123, 123), 0 -3px 0 rgb(255, 123, 123), 1px 1px rgb(255, 123, 123), -1px -1px 0 rgb(255, 123, 123), 1px -1px 0 rgb(255, 123, 123), -1px 1px 0 rgb(255, 123, 123);
-}
 
-h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #fff;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.header {
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
 
 @media (max-width: 500px) {
     html {
@@ -80,13 +92,18 @@ h3 {
     }
 
     h1 {
-        align-content: center;
+        font-size: 34px !important;
     }
 
     h3 {
         margin-left: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .header {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .elekid, .mantyke, .tyrogue, .wynaut, .munchlax, .mimejr, .magby, .pichu, .togepi {
